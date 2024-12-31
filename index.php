@@ -50,7 +50,7 @@
                 
                 <div class="content-card">
                     <div class="column align-center justify-center">
-                        <img src="https://data.nathcat.net/sso/AuthCat.png">
+                        <img width=100 height=100 src="https://data.nathcat.net/sso/AuthCat.png">
                         <h2>AuthCat</h2>
                     </div>
                     <p>
