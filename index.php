@@ -46,7 +46,7 @@
                     </div>
                 </div>
 
-                <h2>Now, what have we accomplished this year?</h2>
+                <h2 style="text-align: center;">Now, what have we accomplished this year?</h2>
                 
                 <div class="content-card">
                     <div class="column align-center justify-center">
