@@ -15,7 +15,7 @@
         <div class="content">
             <?php include("header.php"); ?>
             
-            <div class="main">
+            <div class="main align-center justify-center">
                 <h1>Happy new year, <?php echo $_SESSION["user"]["fullName"]; ?>!</h1>
                 <h2>2024 has been one hell of a year!</h2>
 
@@ -41,7 +41,7 @@
                         <div class="small-profile-picture">
                             <img src="https://nathcat.net/static/images/me.jpg">
                         </div>
-                        
+
                         <h3 style="margin-left: 15px;">Nathan Baines - <i>Programming with Passion</i></h3>
                     </div>
                 </div>
