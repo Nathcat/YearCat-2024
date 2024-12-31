@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="icon" href="https://cdn.nathcat.net/cloud/62874f85-c79d-11ef-9aab-067048c6a237.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
 
@@ -22,6 +23,9 @@
             
             <div class="main align-center justify-center">
                 <h1>Happy new year<?php if (isset($__WESTWAY__)) echo ", Westway";?>!</h1>
+
+                <img style="width: 10vw; aspect-ratio: 1;" src="https://cdn.nathcat.net/cloud/62874f85-c79d-11ef-9aab-067048c6a237.png">
+
                 <h2>2024 has been one hell of a year!</h2>
 
                 <div class="content-card">
