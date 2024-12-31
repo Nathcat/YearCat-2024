@@ -1,4 +1,4 @@
-<?php include("start-session.php"); ?>
+<?php if (!isset($__DO_NOT_REQUIRE_AUTHCAT__) include("start-session.php"); ?>
 
 <div class="navbar column align-center justify-center">
     <div style="width: 100%" class="row align-center justify-center">
