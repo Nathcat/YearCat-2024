@@ -45,6 +45,49 @@
                         <h3 style="margin-left: 15px;">Nathan Baines - <i>Programming with Passion</i></h3>
                     </div>
                 </div>
+
+                <h2>Now, what have we accomplished this year?</h2>
+                
+                <div class="content-card">
+                    <div class="column align-center justify-center">
+                        <img src="https://data.nathcat.net/sso/AuthCat.png">
+                        <h2>AuthCat</h2>
+                    </div>
+                    <p>
+                        29 new people have joined the network this year!
+                    </p>
+                </div>
+
+                <div class="content-card">
+                    <div class="column align-center justify-center">
+                        <h2>SudokuCat</h2>
+                    </div>
+                    <p>
+                        As a whole, the network has solved 163 puzzles this year!
+                    </p>
+                    <p id="user-puzzles-solved">
+                        You solved X of those puzzles!
+                    </p>
+
+                    <script>
+                        fetch("https://data.nathcat.net/sudoku/get-user-data.php", {
+                            method: "GET",
+                            credentials: "include"
+                        }).then((r) => r.json()).then((r) => {
+                            if (r === null) {
+                                r = {
+                                    "puzzlesSolved": 0,
+                                    "currentPuzzle": null,
+                                    "streakLength": 0,
+                                    "hasSolvedToday": 0,
+                                    "emailStreakNotifications": 0
+                                };
+                            }
+                        
+                            $("#user-puzzles-solved").text("You solved " + r["puzzlesSolved"] + " of those puzzles!");
+                        });
+                    </script>
+                </div>
             </div>
 
             <?php include("footer.php"); ?>
