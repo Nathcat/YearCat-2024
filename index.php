@@ -84,7 +84,7 @@
                                 };
                             }
                         
-                            $("#user-puzzles-solved").text("You solved " + r["puzzlesSolved"] + " of those puzzles! Thats " + ((r["puzzlesSolved"] / 163) * 100) + "% of all puzzles!");
+                            $("#user-puzzles-solved").text("You solved " + r["puzzlesSolved"] + " of those puzzles! Thats " + Math.round(((r["puzzlesSolved"] / 163) * 100), 1) + "% of all puzzles!");
                         });
                     </script>
                 </div>
