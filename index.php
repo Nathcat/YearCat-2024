@@ -88,6 +88,12 @@
                         });
                     </script>
                 </div>
+
+                <h2 style="text-align: center;">And of course, so much more!</h2>
+                
+                <p style="text-align: center;">
+                    Again, the network is very new so we don't have many statistics available yet, but we are immensely grateful for your support!
+                </p>
             </div>
 
             <?php include("footer.php"); ?>
