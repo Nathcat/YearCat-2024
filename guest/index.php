@@ -21,7 +21,7 @@
             <?php include("../header.php"); ?>
             
             <div class="main align-center justify-center">
-                <h1>Happy new year<?php if (isset($__WESTWAY__)) echo ", Westway"?>!</h1>
+                <h1>Happy new year<?php if (isset($__WESTWAY__)) echo ", Westway";?>!</h1>
                 <h2>2024 has been one hell of a year!</h2>
 
                 <div class="content-card">
