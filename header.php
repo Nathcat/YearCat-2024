@@ -3,8 +3,8 @@
 <div class="navbar column align-center justify-center">
     <div style="width: 100%" class="row align-center justify-center">
         <img src="https://cdn.nathcat.net/cloud/62874f85-c79d-11ef-9aab-067048c6a237.png" width=100 height=100>
-        
-        <div class="column align-center justify-center">
+
+        <div style="width: 100%;" class="column align-center justify-center">
             <h1 id="navbar-title">YearCat - 2024</h1>
             <a href="https://apps.nathcat.net">Part of the Nathcat Network</a>
         </div>
